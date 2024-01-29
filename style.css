@@ -895,7 +895,7 @@ iframe {
     color: rgb(131, 130, 130);
 }
 
-@media only screen and (max-width: 640px) { 
+/* @media only screen and (max-width: 640px) { 
     .container1{
                 max-width: 50%;
                 justify-items: center;
@@ -933,4 +933,4 @@ body{
 
 
 
-}
+} */
