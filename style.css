@@ -1,0 +1,936 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container1 {
+
+    align-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1 .box1,
+.box3 {
+    font-family: 'Roboto Serif', serif;
+}
+
+.container1 h1:hover {
+    color: rgb(99, 99, 99);
+}
+
+.container1 h1 {
+    font-size: 17px;
+}
+
+.box1 {
+
+    height: auto;
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: #0d8083 underline;
+    cursor: pointer;
+}
+
+.box2 {
+
+    height: auto;
+    margin: 10px;
+    font-size: 15px;
+
+}
+
+.box3 {
+
+    height: auto;
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: #0d8083 underline;
+    cursor: pointer;
+
+}
+
+.one:hover {
+    color: blue;
+}
+
+.span1 {
+    color: rgb(219, 141, 141);
+}
+
+.container2 a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container2 a:hover {
+
+    color: #d7752b;
+}
+
+.container2 a i {
+
+    color: rgb(151, 150, 150);
+}
+
+.box5 {
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+
+.box4 h2 {
+
+    padding: 5px 10px 5px 11px;
+    position: relative;
+    left: 200px;
+    top: -20px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box4 h2:hover {
+    color: #f1f0f0;
+}
+
+.box5 h4 {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.box5 h6 {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    position: relative;
+    left: -10px;
+}
+
+.box5 h6 .span2 {
+    cursor: auto;
+}
+
+.box5 hr {
+
+    width: 294px;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.box5 .span2 {
+    color: #02bb9b;
+}
+
+.box5 img {
+
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.box5 h5 {
+    display: inline-block;
+    color: rgb(163, 163, 163);
+}
+
+.box5 h4:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.box5 h6:hover {
+    color: rgb(99, 99, 99);
+}
+
+.container4 div img,
+p {
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    left: 550px;
+    bottom: 1700px;
+    cursor: pointer;
+
+}
+
+.container4 p {
+
+    position: relative;
+    left: 590px;
+    font-size: 28px;
+    display: inline;
+}
+
+.container4 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container5 {
+
+    position: relative;
+    left: 543px;
+    bottom: 1710px;
+    display: flex;
+}
+
+.container5 h1 {
+    font-size: 17px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container5 img {
+    cursor: pointer;
+}
+
+.container5 .box10 {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+.container5 .box11 {
+    position: relative;
+    bottom: 0px;
+    left: 18px;
+}
+
+.container5 .box12 {
+    position: relative;
+    top: 250px;
+    right: 601px;
+}
+
+.container5 .box13 {
+    position: relative;
+    top: 250px;
+    right: 580px;
+}
+
+.container5 .box14 {
+    position: relative;
+    top: 500px;
+    right: 1201px;
+}
+
+.container5 .box15 {
+    position: relative;
+    top: 500px;
+    right: 1180px;
+}
+
+h3 {
+    display: inline;
+    position: relative;
+    bottom: 1713px;
+    left: 540px;
+    padding: 5px 10px 5px 11px;
+    text-decoration: none;
+    background-color: rgb(73, 73, 73);
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    color: white;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3:hover {
+    color: #f1f0f0;
+}
+
+.container6 {
+    position: relative;
+    left: 1220px;
+    bottom: 2500px;
+    padding: 20px;
+    display: flex
+}
+
+.container6 li {
+
+    font-size: 20px;
+    color: rgb(103, 103, 103);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -10px;
+}
+
+.container6 h1 {
+    position: relative;
+    left: -30px;
+    bottom: -20px;
+    font-size: 23px;
+    background-color: #e2eee2;
+    border: 1px solid #e2eee2;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container6 li:hover {
+    text-decoration: underline #02bb9b;
+    cursor: pointer;
+}
+
+.container7 hr {
+
+    width: 845px;
+    position: relative;
+    left: 550px;
+    bottom: 2235px;
+}
+
+.container7 p {
+    width: 915px;
+    position: relative;
+    left: 650px;
+    bottom: 2249px;
+    cursor: pointer;
+    font-size: 26px;
+    display: inline;
+    color: rgb(103, 103, 103);
+
+}
+
+.container7 img {
+
+    width: 70px;
+    position: relative;
+    left: 655px;
+    bottom: 2193px;
+    cursor: pointer;
+    display: inline;
+    border-radius: 50%;
+}
+
+.container8 .box18 hr {
+
+    width: 320px;
+    position: relative;
+    left: 585px;
+    bottom: 2180px;
+}
+
+.container8 .box20 hr {
+
+    width: 360px;
+    position: relative;
+    left: 1070px;
+    bottom: 2211px;
+}
+
+.container8 .box19 img {
+
+    position: relative;
+    left: 925px;
+    bottom: 2193px;
+}
+
+iframe {
+    width: 290px;
+    position: relative;
+    left: 550px;
+    bottom: 2165px;
+    height: 20vh;
+    display: inline;
+}
+
+.container9 .box22 p {
+    position: relative;
+    left: 550px;
+    bottom: 2153px;
+    font-size: 17px;
+    display: inline;
+}
+
+.container9 .box23 p {
+    position: relative;
+    left: 855px;
+    bottom: 2192px;
+    font-size: 17px;
+    display: inline;
+}
+
+.container9 .box24 p {
+    position: relative;
+    left: 1160px;
+    bottom: 2230px;
+    font-size: 17px;
+    display: inline;
+}
+
+.container9 .box25 hr {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 2195px;
+    width: 1255px;
+}
+
+.container10 .box26 h1 {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 2198px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container10 .box27 img {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 2185px;
+    width: 235px;
+    height: 235px;
+    cursor: pointer;
+}
+
+.container10 .box28 p {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 2180px;
+    height: 235px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container10 .box28:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box29 p {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 2366px;
+    height: 235px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box30 img {
+    position: relative;
+    left: 495px;
+    bottom: 2894px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.container10 .box31 p {
+    position: relative;
+    left: 583px;
+    bottom: 2893px;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container10 .box31 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box32 p {
+    position: relative;
+    left: 605px;
+    bottom: 2886px;
+    font-size: 18px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box33 img {
+    position: relative;
+    left: 1221px;
+    bottom: 3340px;
+    width: 235px;
+    height: 235px;
+    cursor: pointer;
+}
+
+.container10 .box34A p {
+    position: relative;
+    left: 1224px;
+    bottom: 3330px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container10 .box34A:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box34B p {
+    position: relative;
+    left: 1400px;
+    bottom: 3653px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline;
+    color: rgb(135, 134, 134);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container10 .box35 p {
+    position: relative;
+    left: 1227px;
+    bottom: 3339px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box36 img {
+    position: relative;
+    left: 200px;
+    bottom: 3176px;
+    width: 290px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.container10 .box37 p {
+    position: relative;
+    left: 201px;
+    bottom: 3167px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container10 .box37 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box38 p {
+    position: relative;
+    left: 201px;
+    bottom: 3160px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box39 img {
+    position: relative;
+    left: 522px;
+    bottom: 3528px;
+    width: 290px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.container10 .box40 p {
+    position: relative;
+    left: 524px;
+    bottom: 3520px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container10 .box40 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box41 p {
+    position: relative;
+    left: 524px;
+    bottom: 3513px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box42 img {
+    position: relative;
+    left: 845px;
+    bottom: 3880px;
+    width: 290px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.container10 .box43 p {
+    position: relative;
+    left: 847px;
+    bottom: 3871px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container10 .box43 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box44 p {
+    position: relative;
+    left: 847px;
+    bottom: 3864px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box45 img {
+    position: relative;
+    left: 1165px;
+    bottom: 4232px;
+    width: 290px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.container10 .box46 p {
+    position: relative;
+    left: 1167px;
+    bottom: 4222px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline;
+}
+
+.container10 .box46 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container10 .box47 p {
+    position: relative;
+    left: 1167px;
+    bottom: 4213px;
+    font-size: 16px;
+    cursor: auto;
+    color: rgb(163, 163, 163);
+}
+
+.container10 .box48 hr {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 4180px;
+    width: 1255px;
+}
+
+.container11 .box49 p {
+    position: relative;
+    left: 200px;
+    right: 100px;
+    bottom: 4169px;
+    width: 1255px;
+    font-size: 25px;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container11 .box50 img {
+    position: relative;
+    left: 200px;
+    bottom: 4158px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box51 p {
+    position: relative;
+    left: 200px;
+    bottom: 4149px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box51 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box52 img {
+    position: relative;
+    left: 402px;
+    bottom: 4326px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box53 p {
+    position: relative;
+    left: 405px;
+    bottom: 4318px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box53 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box54 img {
+    position: relative;
+    left: 604px;
+    bottom: 4494px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box55 p {
+    position: relative;
+    left: 608px;
+    bottom: 4487px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box55 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box56 p {
+    position: relative;
+    left: 859px;
+    right: 100px;
+    bottom: 4710px;
+    width: 1255px;
+    font-size: 25px;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container11 .box57 img {
+    position: relative;
+    left: 862px;
+    bottom: 4698px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box58 p {
+    position: relative;
+    left: 862px;
+    bottom: 4691px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box58 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box59 img {
+    position: relative;
+    left: 1064px;
+    bottom: 4887px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box60 p {
+    position: relative;
+    left: 1065px;
+    bottom: 4881px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box60 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box61 img {
+    position: relative;
+    left: 1267px;
+    bottom: 5097px;
+    width: 190px;
+    height: 122px;
+    cursor: pointer;
+}
+
+.container11 .box62 p {
+    position: relative;
+    left: 1269px;
+    bottom: 5090px;
+    width: 202px;
+    height: 122px;
+    font-size: 18px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container11 .box62 p:hover {
+    text-decoration: underline #02bb9b;
+}
+
+.container11 .box63 p {
+    position: relative;
+    left: 1400px;
+    bottom: 5316px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline;
+    color: rgb(135, 134, 134);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container11 .box64 p {
+    position: relative;
+    left: 736px;
+    bottom: 5334px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline;
+    color: rgb(135, 134, 134);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container11 .box65 p {
+    position: relative;
+    left: 200px;
+    bottom: 5110px;
+    width: 202px;
+    height: 122px;
+    font-size: 13px;
+    display: inline;
+    cursor: pointer;
+    color: rgb(164, 163, 163);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container11 .box66 hr {
+    position: relative;
+    bottom: 5087px;
+    width: 1660px;
+}
+
+.container12 .box67 i {
+    position: relative;
+    bottom: 5050px;
+    width: 1660px;
+    left: 200px;
+    cursor: pointer;
+    font-size: 34px;
+    display: inline;
+}
+
+.container12 .box68 i {
+    position: relative;
+    bottom: 5084px;
+    width: 1660px;
+    left: 235px;
+    cursor: pointer;
+    font-size: 34px;
+    display: inline;
+}
+
+.container12 .box69 i {
+    position: relative;
+    bottom: 5117px;
+    width: 1660px;
+    left: 269px;
+    cursor: pointer;
+    font-size: 34px;
+    display: inline;
+}
+
+.container12 .box70 p {
+    position: relative;
+    bottom: 5104px;
+    left: 200px;
+    cursor: auto;
+    font-size: 13px;
+    color: rgb(131, 130, 130);
+}
+
+.container12 .box71 a {
+    position: relative;
+    bottom: 5159px;
+    left: 550px;
+    cursor: pointer;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: rgb(131, 130, 130);
+}
+
+@media only screen and (max-width: 640px) { 
+    .container1{
+                max-width: 50%;
+                justify-items: center;
+    }
+
+    .container2{
+               display:flex;
+}
+
+.container4{
+            display: block;
+            max-width: 50%;
+}
+
+.box4{
+    display: block;
+    max-width: 50%;
+}
+
+.container4 .box19{
+                    position: relative;
+                    top: 10px;
+                    right: 10px;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+}
